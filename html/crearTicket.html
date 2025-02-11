@@ -35,13 +35,13 @@
             <div class="col-5 marginTop52">
                 <nav>
                     <a href="../index.html" >
-                        <input type="button" value="Inicio" class="pressed">
+                        <input type="button" value="Inicio">
                     </a>
                     <a href="servicios.html">
                         <input type="button" value="Servicios">
                     </a>
                     <a href="contactanos.html">
-                        <input type="button" value="Contactanos">
+                        <input type="button" value="Contactanos" class="pressed">
                     </a>
                     <a href="sobreNosotros.html">
                         <input type="button" value="Sobre Nosotros" class="azulClaro">
@@ -75,22 +75,94 @@
             <div class="col-12"></div>
         </div>
     </header>
+    <div>
+        <div class="row marginTop60">
+            <div class="col-4">
+                <a href="contactanos.html">
+                    <img src="../img/Iconos/flecha.png" height="30px" width="30px">
+                    <label class="bold">Volver</label>
+                </a>
+            </div>
+            <div class="col-4">
+                <label class="titulo">Ticket soporte</label>
+            </div>
+            <div class="col-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <form action="#" method="POST" class="marginTop30 bLogin padding10">
+                    <div class="row marginTop10">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <label class="bold">Recibir Soporte:</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <input type="radio" value="errUsuario" id="ftype" name="ftipo" required><label class="sinBold">Cuenta</label>
+                                    <input type="radio" value="errPago" id="ftype" name="ftipo" required><label class="sinBold">Pagos</label>
+                                    <input type="radio" value="errPedido" id="ftype" name="ftipo" required><label class="sinBold">Pedido</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row marginTop10">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <label class="bold">Email:</label>
+                                </div>
+                            </div>
+                            <div class="row marginTop10">
+                                <div class="col-12">
+                                    <input type="email" id="femail" name="fcorreo" placeholder="Correo Electronico" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row marginTop10">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <label class="bold">Cuentanos tu problema:</label>
+                                </div>
+                            </div>
+                            <div class="row marginTop10">
+                                <div class="col-12">
+                                    <textarea id="comentarios" name="comentarios" rows="15" cols="30" placeholder="Detalla tu problema aquí..." required></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row marginTop10">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col-12">
+                                    <label for="privacidad">
+                                        <input type="checkbox" id="privacidad" name="privacidad" required>
+                                        He leído y acepto la política de privacidad
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="row marginTop10">
+                                <div class="col-12">
+                                    <input type="submit">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
     <section>
-        <h3>Ticket soporte</h3>
         <form action="paginaDestino.php" method="POST">
-            <label for="ftype">Recibir soporte: </label><br>
-            <input type="radio" value="errUsuario" id="ftype" name="ftipo" required><label>Cuenta</label>
-            <input type="radio" value="errPago" id="ftype" name="ftipo" required><label>Pagos</label>
-            <input type="radio" value="errPedido" id="ftype" name="ftipo" required><label>Pedido</label><br><br>
-            <label>Email:</label>
-            <input type="email" id="femail" name="fcorreo" placeholder="Correo Electronico" required><br><br>
-            <label for="comentarios"><b>Cuentanos tu problema:</b></label><br>
-            <textarea id="comentarios" name="comentarios" rows="15" cols="30" placeholder="Detalla tu problema aquí..." required></textarea><br><br>
-            <label for="privacidad">
-                <input type="checkbox" id="privacidad" name="privacidad" required>
-                He leído y acepto la política de privacidad
-            </label><br><br>
-            <input type="submit">
+            <br><br><br><br>
+            
         </form>
     </section><br><br>
     <footer>
@@ -114,7 +186,7 @@
                         </div>
                         <div class="row marginBottom10 marginTop10">
                             <img src="../img/Iconos/whatsapp.png" height="25" width="25" class="marginRgt5">
-                            <label>+34 111000111</label>
+                            <label>+34 676407803</label>
                         </div>                      
                         <div class="row marginBottom10 marginTop10">
                             <img src="../img/Iconos/facebook.png" height="25" width="25" class="marginRgt5">
