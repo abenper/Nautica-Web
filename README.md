@@ -15,6 +15,5 @@ Puedes visitar la página aquí: [Náutica Web](https://abenper.github.io/Nautic
 ## 🛠️ Tecnologías utilizadas
 
 - HTML  
-- CSS  
-- JavaScript básico  
+- CSS 
 - GitHub Pages para el hosting
